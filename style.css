@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+  }
+  a:link {
+    color: #66615d;
+    text-decoration: none;
+  }
+  h1{
+      text-align: center;
+  }
+  a:visited {
+    color: #66615d;
+  }
+  .tab {
+    cursor: pointer;
+  }
+  .tab.active {
+    background-color: #ffdbc9;
+  }
+  .tab:hover {
+    background-color: #ffece3;
+  }
+  .navigation-bar {
+    margin: 0;
+    overflow: hidden;
+    font-size: 1.2rem;
+  }
+
+  .tab {
+    padding: 2rem;
+    float: right;
+  }
+
+[data-tab-content] {
+    display: none;
+  }
+  .active[data-tab-content] {
+    display: block;
+  }
